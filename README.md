@@ -18,7 +18,7 @@ Este workshop es una introducción a la programación usando JavaScript.
     * Hoy en día, JavaScript tiene muchos casos de uso diferentes, desde manipular robots u otros tipos de hardware, hacer gráficos complejos, proyectos con realidad virtual, escribir aplicaciones para teléfonos y navegadores, etc.
     * La NASA usa JavaScript en sus trajes espaciales.
 
-## Ejercicios
+## Ejercicios [(👉  plataforma online 👈)](https://codesandbox.io/s/n50p6pkzqj)
 
 1. [console.log](/ejercicios/conceptuales/01.md)
 1. [Errores Comunes](/ejercicios/conceptuales/02.md)
