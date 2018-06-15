@@ -1,5 +1,5 @@
 /*
-    Declarar una variable llamada `noValgoNi5` y asignarle el valor `4`. Mostrar el valor de la variable por la terminal.
+    Declarar una variable llamada `noValgoNi5` y asignarle el valor `4`. Mostrar el valor de la variable por la consola.
 */
 
 var noValgoNi5 = 4;
@@ -13,7 +13,7 @@ console.log(noValgoNi5);
     * `meGustariaTener80Anos` y asignarle el número `80`.
     * `voyATener80ElAno` y asignarle el resultado de sumar las 2 variables anteriores
 
-    Mostrar por la terminal el año en el que vas a cumplir 80 años.
+    Mostrar por la consola el año en el que vas a cumplir 80 años.
 */
 
 var miAnoDeNacimiento = 1990;
@@ -30,7 +30,7 @@ console.log(voyATener80ElAno);
     * `ahorros` y asignarle el valor `9000`.
     * `dineroQueMeFalta` y asignarle el resultado de restar las 2 variables anteriores.
 
-    Mostrar por la terminal cuanto dinero te falta para comprar la tele.
+    Mostrar por la consola cuanto dinero te falta para comprar la tele.
 */
 
 var costoDeUnaTele = 10000;
@@ -47,7 +47,7 @@ console.log(dineroQueMeFalta);
     * `cantidadDeAnosEnUnaDecada` y asignarle el número `10`
     * `cantidadDeDiasEnUnaDecada` y asignarle el resultado de multiplicar las 2 variables anteriores.
 
-    Mostrar por la terminal cuantos días hay en una década.
+    Mostrar por la consola cuantos días hay en una década.
 */
 
 var diasPorAno = 365;
@@ -58,7 +58,7 @@ var cantidadDeDiasEnUnaDecada = 365 * 10;
 console.log(cantidadDeDiasEnUnaDecada);
 
 /*
-    Teniendo en cuenta que una pizza siempre tiene 8 porciones, mostrar por la terminal cuantas pizzas tengo en la mesa si conté 24 porciones.
+    Teniendo en cuenta que una pizza siempre tiene 8 porciones, mostrar por la consola cuantas pizzas tengo en la mesa si conté 24 porciones.
 
     Preguntas que te deberías hacer para resolver este ejercicio: ¿Qué números menciona el enunciado?, ¿Los puedo guardar en variables?, ¿Qué cuenta puedo hacer para obtener el resultado?
 */
@@ -71,7 +71,7 @@ var pizzasEnTotal = porcionesEnLaMesa / porcionesEnUnaPizza;
 console.log(pizzasEnTotal);
 
 /*
-    Declarar una variable de nombre `miAnimalFavorito` y asignarle como valor el string que represente el animal que más te gusta. Escribir el código necesario para mostrar por la terminal el valor `true` si el animal que más te gusta es un `'perro'`. De lo contrario, mostrar `false`. Usar el operador de igualdad (`==`).
+    Declarar una variable de nombre `miAnimalFavorito` y asignarle como valor el string que represente el animal que más te gusta. Escribir el código necesario para mostrar por la consola el valor `true` si el animal que más te gusta es un `'perro'`. De lo contrario, mostrar `false`. Usar el operador de igualdad (`==`).
 */
 
 var miAnimalFavorito = 'topo';
@@ -81,7 +81,7 @@ var esUnPerro = miAnimalFavorito == 'perro';
 console.log(esUnPerro);
 
 /*
-    Usar el operador de desigualdad (`!=`) para mostrar por la terminal el resultado de comparar la cadena de caracteres `'flan'` y `'flan con dulce de leche'` (Podés crear todas las variables que quieras, incluso podés resolverlo sin usar variables).
+    Usar el operador de desigualdad (`!=`) para mostrar por la consola el resultado de comparar la cadena de caracteres `'flan'` y `'flan con dulce de leche'` (Podés crear todas las variables que quieras, incluso podés resolverlo sin usar variables).
 */
 
 var sonDesiguales = 'flan' != 'flan con dulce de leche';
@@ -89,7 +89,7 @@ var sonDesiguales = 'flan' != 'flan con dulce de leche';
 console.log(sonDesiguales);
 
 /*
-    Declarar una variable llamada `soyMayorDeEdad` y asignarle el resultado de comparar tu edad y el número `18` usando el operador `>` (mayor). Mostrar el valor de la variable por la terminal.
+    Declarar una variable llamada `soyMayorDeEdad` y asignarle el resultado de comparar tu edad y el número `18` usando el operador `>` (mayor). Mostrar el valor de la variable por la consola.
 */
 
 var soyMayorDeEdad = 27 > 18;
@@ -97,7 +97,7 @@ var soyMayorDeEdad = 27 > 18;
 console.log(soyMayorDeEdad);
 
 /*
-    Declarar una variable llamada `soyMenorDe25` y asignarle el resultado de comparar tu edad y el número `25` usando el operador `<` (menor). Mostrar el valor de la variable por la terminal.
+    Declarar una variable llamada `soyMenorDe25` y asignarle el resultado de comparar tu edad y el número `25` usando el operador `<` (menor). Mostrar el valor de la variable por la consola.
 */
 
 var soyMenorDe25 = 27 < 25;
@@ -105,7 +105,7 @@ var soyMenorDe25 = 27 < 25;
 console.log(soyMenorDe25);
 
 /*
-    Declarar una variable llamada `estamosEnEnero` y asignarle el resultado de comparar si el nombre del mes actual es igual a `'Enero'`. Hacerlo usando el operador de igualdad estricta (`===`). Mostrar el valor de la variable por la terminal.
+    Declarar una variable llamada `estamosEnEnero` y asignarle el resultado de comparar si el nombre del mes actual es igual a `'Enero'`. Hacerlo usando el operador de igualdad estricta (`===`). Mostrar el valor de la variable por la consola.
 */
 
 var estamosEnEnero = 'Mayo' === 'Enero';
@@ -113,7 +113,7 @@ var estamosEnEnero = 'Mayo' === 'Enero';
 console.log(estamosEnEnero);
 
 /*
-    Declarar una variable llamada `noEstamosEnEnero` y asignarle el resultado de comparar si el nombre del mes actual y el string `'Enero'` son diferentes. Hacerlo usando el operador de desigualdad estricta (`!==`). Mostrar el valor de la variable por la terminal.
+    Declarar una variable llamada `noEstamosEnEnero` y asignarle el resultado de comparar si el nombre del mes actual y el string `'Enero'` son diferentes. Hacerlo usando el operador de desigualdad estricta (`!==`). Mostrar el valor de la variable por la consola.
 */
 
 var noEstamosEnEnero = 'Mayo' !== 'Enero';
@@ -127,7 +127,7 @@ console.log(noEstamosEnEnero);
     * `notaMinimaParaAprobar` y asignarle un `6`
     * `estoyAprobado` y asignarle el resultado de comparar el número las dos variables anteriores usando el operador `>=` (Mayor o igual).
 
-    Mostrar el valor de la variable `estoyAprobado` por la terminal.
+    Mostrar el valor de la variable `estoyAprobado` por la consola.
 */
 
 var miNotaEnElParcial = 8;
@@ -138,7 +138,7 @@ var estoyAprobado = miNotaEnElParcial >= notaMinimaParaAprobar;
 console.log(estoyAprobado);
 
 /*
-    Declarar una variable llamada `esHoraDeAlmorzar` cuyo valor sea el resultado de comparar con el operador `<=` (Menor o igual) si la hora actual es menor o igual a `12`. Mostrar el valor por la terminal.
+    Declarar una variable llamada `esHoraDeAlmorzar` cuyo valor sea el resultado de comparar con el operador `<=` (Menor o igual) si la hora actual es menor o igual a `12`. Mostrar el valor por la consola.
 */
 
 var esHoraDeAlmorzar = 19 <= 12;

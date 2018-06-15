@@ -1,5 +1,5 @@
 /*
-    Declarar una variable que se llame `ganeLaCarrera` y asignarle el valor `false`. Mostrar por la terminal un mensaje que diga `'Ganaste'` si `ganeLaCarrera` es verdadero y `'Perdiste'` si su valor es falso.
+    Declarar una variable que se llame `ganeLaCarrera` y asignarle el valor `false`. Mostrar por la consola un mensaje que diga `'Ganaste'` si `ganeLaCarrera` es verdadero y `'Perdiste'` si su valor es falso.
 */
 
 var ganeLaCarrera = false;
@@ -11,7 +11,7 @@ if (ganeLaCarrera == true) {
 }
 
 /*
-    Declarar una variable que se llame `posicionEnLaCarrera` y asignarle el número `6`. Mostrar por la terminal uno de los siguientes mensajes según la posición que salió el corredor:
+    Declarar una variable que se llame `posicionEnLaCarrera` y asignarle el número `6`. Mostrar por la consola uno de los siguientes mensajes según la posición que salió el corredor:
 
         * `'FELICITACIONES, SALISTE 1RO'` si la `posicionEnLaCarrera` es 1.
         * `'Te falto poquito para ganar'` si la `posicionEnLaCarrera` es 2.

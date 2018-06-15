@@ -1,8 +1,8 @@
-// Mostrar el año de tu nacimiento por la terminal.
+// Mostrar el año de tu nacimiento por la consola.
 
 console.log(1990);
 
-// Mostrar tu número favorito por la terminal.
+// Mostrar tu número favorito por la consola.
 
 console.log(123);
 

@@ -1,51 +1,43 @@
 /*
-    Un año de vida para las personas, representa 7 años en la vida de un perro. Escribí un programa que reciba como parámetro tu edad (no te olvides de usar la función `Number` para convertirla de string a número) y mostrá por la terminal cuantos años tendrías si fueras un perro (tu edad multiplicada por 7).
+    Declará y asigná un objeto llamado `miRecetaMatadora` que contenga 3 propiedades: `titulo` (string), `porciones` (número) e `ingredientes` (array de string). Mostrar el objeto creado en la consola
 */
 
-var miEdadComoString = process.argv[2];
-var miEdad = Number(miEdadComoString);
-var miEdadEnAnosPerrunos = miEdad * 7;
+var miRecetaMatadora = {
+    titulo: 'Polenta con queso',
+    porciones: 4,
+    ingredientes: [
+        'Polenta',
+        'Queso fresco',
+        'Queso rallado'
+    ]
+};
 
-console.log(miEdadEnAnosPerrunos);
+console.log(miRecetaMatadora);
 
 /*
-    Escribí un programa que reciba el nombre de una persona (string) y la nota de su trabajo práctico (número). Mostrar por la terminal el mensaje adecuado dependiendo de las siguientes condiciones:
+    Escribí un programa que:
 
-        * Si su nota es mayor a 7, mostrar:
-
-        ```bash
-        # Completar los 3 puntos con los datos correspondientes
-        'El/La alumno/a llamado/a ... se sacó un ...'
-        'Felicitaciones por aprobar'
-        ```
-
-        * Si su nota es mayor a 4 pero menor a 7, mostrar:
-
-        ```bash
-        # Completar los 3 puntos con los datos correspondientes
-        'El/La alumno/a llamado/a ... se sacó un ...'
-        'La próxima entrega espero un mejor trabajo'
-        ```
-
-        * Si su nota es menor a 4, mostrar:
-
-        ```bash
-        # Completar los 3 puntos con los datos correspondientes
-        'El/La alumno/a llamado/a ... se sacó un ...'
-        'Nos vemos en Marzo'
-        ```
+        * Declare 3 objetos llamados `persona1`, `persona2` y `persona3` con las siguientes propiedades: `nombre` (string) y `edad` (numero).
+        * Declare un array llamado `usuarios` y use los 3 objetos anteriormente creados como elementos.
+        * Muestre por la consola la cantidad de usuarios del array.
+        * Muestre por la consola la edad del segundo elemento del array.
+        * Muestre por la consola el nombre del primer elemento del array.
 */
 
-var persona = process.argv[2];
-var notaComoString = process.argv[3];
-var nota = Number(notaComoString);
+var persona1 = {
+    nombre: 'Juan',
+    edad: 10
+};
+var persona2 = {
+    nombre: 'Pedro',
+    edad: 20
+};
+var persona3 = {
+    nombre: 'Martin',
+    edad: 30
+};
+var usuarios = [persona1, persona2, persona3];
 
-console.log('El/La alumno/a llamado/a', persona, ' se sacó un', nota);
-
-if (nota > 7) {
-    console.log('Felicitaciones por aprobar');
-} else if (nota > 4) {
-    console.log('La próxima entrega espero un mejor trabajo.');
-} else {
-    console.log('Nos vemos en Marzo');
-}
+console.log(usuarios.length);
+console.log(usuarios[1].edad);
+console.log(usuarios[0].nombre);
